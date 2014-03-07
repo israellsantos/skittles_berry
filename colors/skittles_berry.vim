@@ -52,7 +52,7 @@ hi MatchParen     term=reverse ctermfg=0 ctermbg=208 gui=bold guifg=#000000 guib
 hi Comment        ctermfg=66 guifg=#5f8787
 hi Constant       ctermfg=91 gui=bold guifg=#8700af
 hi Special        ctermfg=81 guifg=#5fd7ff
-hi Statement      ctermfg=202 ctermbg=233 guifg=#ff5f00 guibg=#121212
+hi Statement      ctermfg=202 guifg=#ff5f00 guibg=#121212
 hi PreProc        ctermfg=149 guifg=#afd75f
 hi Type           ctermfg=81 guifg=#5fd7ff
 hi Underlined     ctermfg=8 gui=underline guifg=#7f7f7f
@@ -83,7 +83,7 @@ hi SpecialChar    ctermfg=208 gui=bold guifg=#ff8700
 hi Delimiter      ctermfg=245 guifg=#8a8a8a
 hi SpecialComment ctermfg=66 gui=bold guifg=#5f8787
 hi Debug          ctermfg=138 gui=bold guifg=#af8787
-hi Normal         ctermfg=230 ctermbg=233 guifg=#ffffd7 guibg=#121212
+hi Normal         ctermfg=230 guifg=#ffffd7 guibg=#121212
 hi Identifier     cterm=none term=none ctermfg=228 guifg=#ffff87
 hi clear Cursor
 hi Cursor         ctermbg=26 ctermfg=7 guifg=#e5e5e5 guibg=#005fd7
